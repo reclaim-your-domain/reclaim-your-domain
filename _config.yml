@@ -1,0 +1,25 @@
+title : Reclaim Your Domain
+
+markdown: kramdown
+
+safe: true
+lsi: false
+pygments: true
+auto: true
+
+source: reclaim-your-domain
+destination: reclaim-your-domain
+
+permalink: /:categories/:year/:month/:day/:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+paginate: 10
+paginate_path: "/blog/page:num"
+
+production_url : http://reclaimyourdomain.org
+
+BASE_PATH : http://reclaimyourdomain.org
+
+archive_path: /archive.html
+categories_path : /categories.html
+tags_path : /tags.html
